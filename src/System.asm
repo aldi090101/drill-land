@@ -1,3 +1,11 @@
+// Check CARDGetEncoding() against CARD_ENCODE_ANSI
+// instead of CARD_ENCODE_SJIS
+origin $87463; db $00
+origin $87A5F; db $00
+origin $88287; db $00
+origin $8957B; db $00
+origin $89F3F; db $00
+
 // General Errors - 5 Strings
 Text($00186B14, "The Disc Cover is open.\nIf you want to continue,\nplease close the Disc Cover.")
 Text("Reading disc..")
